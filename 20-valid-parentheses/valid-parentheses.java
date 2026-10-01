@@ -4,10 +4,10 @@ class Solution {
 
         char c[] = s.toCharArray();
 
-        // if(c.length == 1)
-        // {
-        //     return false;
-        // }
+        if(c.length == 1)
+        {
+            return false;
+        }
 
         for(int i = 0;i < c.length;i++)
         {
