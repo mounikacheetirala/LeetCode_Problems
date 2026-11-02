@@ -4,12 +4,12 @@ class Solution {
 
         int med = nums[nums.length / 2];
 
-        int moves = 0;
+        long moves = 0;
 
         for(int n : nums)
         {
             moves += Math.abs(n - med);
         }
-        return moves;
+        return (int)moves;
     }
 }
